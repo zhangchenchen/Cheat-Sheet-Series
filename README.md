@@ -7,4 +7,4 @@
 
 ## [Mongodb]()
 
-## [SaltStalk]()
+## [SaltStalk](https://github.com/zhangchenchen/Cheat-Sheet-Series/blob/master/SaltStalk.md)
