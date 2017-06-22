@@ -1,6 +1,6 @@
 # Cheat Sheet Series
 
-## a bounch of cheat sheet, including mongodb, saltstalk etc
+## a bounch of cheat sheets, including mongodb, saltstalk etc
 
 # Content Table
 
