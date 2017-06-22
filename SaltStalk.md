@@ -1,3 +1,20 @@
+**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
+
+- [SaltStalk Cheat Sheet](#)
+    - [Minions Authentication](#)
+    - [Minions Management](#)
+        - [Minions Status](#)
+        - [Minion Packages](#)
+        - [Minion Services](#)
+        - [Minion Network](#)
+    - [Remote Control CLI](#)
+        - [Execute CMD/Script](#)
+        - [Copy File](#)
+    - [Grains in Salt](#)
+    - [Jobs in Salt](#)
+    - [Salt State](#)
+
+
 # SaltStalk Cheat Sheet
 
 ## Minions Authentication
