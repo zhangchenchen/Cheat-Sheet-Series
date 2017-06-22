@@ -50,13 +50,38 @@ ceph osd map <pool-name> <object-name>   # Find out where a specific object is o
 ## Ceph MON
 
 ```bash
+ceph quorum_status        # Display mon quorum status
+ceph mon dump             # Dump the MON map
+ceph mon remove node1     # Remove a MON node
+```
 
-``` 
 
 
 
-## Salt State
+## Placement Group 
 
 ```bash
+ceph pg dump                         # Display the statistics for all placement groups
+ceph pg dump_stuck inactive|unclean|stale|undersized|degraded  # Display the statistics for all placement groups stuck in a specified state
+```
 
+## Rados Object Storage
+
+```bash
+rados -p <pool> ls                    # List all objects in specified pool
+rados -p <pool> put <obj> <file>      # Upload a file into a pool, name the resulting obj
+rados -p <pool> get <obj> <file>      # Download an object from a pool into a local file
+rados -p <pool> rm <obj>              # Delete an object from a pool
+```
+
+
+## RBD Block Storage
+
+```bash
+rbd create <volume> --size              # Create a volume.
+rbd map [--read-only] <volume-or-snap>  # Map a volume or snapshot to a block device on the local machine
+rbd unmap <dev>                         # Unmap a mapped rbd device
+rbd showmapped                          # Show mapped volumes / snapshots
+rbd info <volume>                       # Print some metadata about a given volume.
+rbd rm <volume>                         # Delete a volume
 ```
