@@ -1,17 +1,19 @@
 **Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
 
-- [Ceph Cheat Sheet](#)
-    - [Authentication and Authorization](#)
-    - [Sevice Start](#)
-    - [Monitoring and Health](#)
-    - [Ceph OSD](#)
-    - [Ceph MON](#)
-    - [Placement Group](#)
-    - [Rados Object Storage](#)
-    - [RBD Block Storage](#)
+- [Ceph Cheat Sheet](#1)
+    - [Authentication and Authorization](#2)
+    - [Sevice Start](#3)
+    - [Monitoring and Health](#4)
+    - [Ceph OSD](#5)
+    - [Ceph MON](#6)
+    - [Placement Group](#7)
+    - [Rados Object Storage](#8)
+    - [RBD Block Storage](#9)
 
+<a name="1"></a>
 # Ceph Cheat Sheet
 
+<a name="2"></a>
 ## Authentication and Authorization
 
 ```bash
@@ -21,6 +23,7 @@ ceph auth delete               # Delete a user
 ceph auth caps                 # Add or remove permissions for a user. Permissions are grouped per daemon type (eg. mon, osd, mds)            
 ```
 
+<a name="3"></a>
 ## Sevice Start
 
 ```bash
@@ -30,7 +33,7 @@ service ceph start osd.0         # start osd0
 service ceph start osd           # start all osd in current node
 service ceph -a start osd        # start all osd in all nodes
 ```
-
+<a name="4"></a>
 ## Monitoring and Health
 
 ```bash
@@ -42,7 +45,7 @@ ceph health detail    # details about health issues
 ceph osd df tree      # disk usage linked to the CRUSH tree
 ```
 
-
+<a name="5"></a>
 ## Ceph OSD
 
 ```bash
@@ -58,7 +61,7 @@ ceph osd reweight <osd-num> <weight>     # Permanently set weight instead of sys
 ceph osd metadata <osd-num>              # Display OSD metadata (host and host info)
 ceph osd map <pool-name> <object-name>   # Find out where a specific object is or would be stored in the system
 ```
-
+<a name="6"></a>
 ## Ceph MON
 
 ```bash
@@ -69,14 +72,14 @@ ceph mon remove node1     # Remove a MON node
 
 
 
-
+<a name="7"></a>
 ## Placement Group 
 
 ```bash
 ceph pg dump                         # Display the statistics for all placement groups
 ceph pg dump_stuck inactive|unclean|stale|undersized|degraded  # Display the statistics for all placement groups stuck in a specified state
 ```
-
+<a name="8"></a>
 ## Rados Object Storage
 
 ```bash
@@ -86,7 +89,7 @@ rados -p <pool> get <obj> <file>      # Download an object from a pool into a lo
 rados -p <pool> rm <obj>              # Delete an object from a pool
 ```
 
-
+<a name="9"></a>
 ## RBD Block Storage
 
 ```bash
