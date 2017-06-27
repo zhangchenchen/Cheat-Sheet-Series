@@ -1,9 +1,7 @@
-# Cheat Cheet Content Table
+**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
 
-## [Ceph](https://github.com/zhangchenchen/Cheat-Sheet-Series/blob/master/Ceph.md)
-
-## [Mongodb](https://github.com/zhangchenchen/Cheat-Sheet-Series/blob/master/Mongodb.md)
-
-## [SaltStalk](https://github.com/zhangchenchen/Cheat-Sheet-Series/blob/master/SaltStalk.md)
-
-## [Tmux](https://github.com/zhangchenchen/Cheat-Sheet-Series/blob/master/Tmux.md)
+- [Cheat Cheet Content Table](#)
+    - [Ceph](https://github.com/zhangchenchen/Cheat-Sheet-Series/blob/master/Ceph.md)
+    - [Mongodb](https://github.com/zhangchenchen/Cheat-Sheet-Series/blob/master/Mongodb.md)
+    - [SaltStalk](https://github.com/zhangchenchen/Cheat-Sheet-Series/blob/master/SaltStalk.md)
+    - [Tmux](https://github.com/zhangchenchen/Cheat-Sheet-Series/blob/master/Tmux.md)

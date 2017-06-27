@@ -1,4 +1,4 @@
-**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
+**Table of Contents** 
 
 - [Ceph Cheat Sheet](#1)
     - [Authentication and Authorization](#2)

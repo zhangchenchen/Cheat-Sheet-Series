@@ -1,5 +1,6 @@
 # tmux shortcuts & cheatsheet
 
+## regular
 start new:
 
     tmux
