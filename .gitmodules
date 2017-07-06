@@ -1,0 +1,3 @@
+[submodule "git-cheat-sheet"]
+	path = git-cheat-sheet
+	url = git@github.com:zhangchenchen/Git-Cheat-Sheet.git
