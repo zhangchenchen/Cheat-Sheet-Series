@@ -13,6 +13,7 @@ docker rmi $(docker images --quiet --filter &quot;dangling=true&quot;) 删除未
 
 ## 容器类
 
+```bash
 docker run 运行容器
 docker ps 显示正在运行的容器
 docker ps -a 显示所有的容器
@@ -27,3 +28,4 @@ docker inspect --format '{{ .NetworkSettings.IPAddress }}' ${CID} 显示指定�
 docker attach ${CID} 进入容器
 docker exec -it ${CID} bash 进入容器打开一个shell
 docker ps | grep wildfly | awk '{print $1}' 通过正则表达式查找容器的镜像ID
+```
